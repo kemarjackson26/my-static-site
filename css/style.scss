@@ -48,7 +48,7 @@
 
 /* #Variables
 ================================================== */
-$color: #8eaeba;
+$color: #27285C;
 $text-color: #73777b;
 $sat-color: saturate($color, 6%);
 $color-overlay: darken($color, 33%);
@@ -139,11 +139,11 @@ $pattern: url('../images/neela-pattern.png');
 /* #Sections with background image
 ================================================== */
 #our-story-title{
-    @include background-image-retina("../images/knd", 'jpg');
+    @include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
 }
 
 #the-wedding{
-	@include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
+	@include background-image-retina("../images/invitation-background.jpg", 'jpg');
 }
 
 #bridesmaids,
@@ -156,7 +156,7 @@ $pattern: url('../images/neela-pattern.png');
 }
 
 #giftregistry{
-	@include background-image-retina("../images/knd", 'jpg');
+	@include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
 }
 
 .page-header{
