@@ -147,6 +147,7 @@
 				
 			<!-- BEGIN MAIN CONTENT -->
 			<main class="main">
+		
 			
 				<!-- BEGIN PROGRESS SECTION -->
 				<section id="progress">
@@ -160,7 +161,32 @@
 								</div>
 							</div>
 							
-							<div class="col-md-6">
+							<!-- BEGIN PAYPAL SECTION -->
+				 <div class="col-md-6">
+				 
+				<div id="donate-button-container">
+                <div id="donate-button"></div>
+                <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                <script>
+                PayPal.Donation.Button({
+                env:'production',
+                hosted_button_id:'D3X2ATQS5UF2J',
+                image: {
+                src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                alt:'Donate with PayPal button',
+                title:'PayPal - The safer, easier way to pay online!',
+                }
+                }).render('#donate-button');
+                </script>
+                </div>
+				</div>
+			
+				<!-- END PAYPAL SECTION -->
+							
+							
+							
+							
+							<!--<div class="col-md-6">
 								<div class="progress-wrapper">
 									<label>Decoration <small>55%</small></label>
 									<div class="progress">
@@ -198,7 +224,7 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section>-->
 				<!-- END PROGRESS SECTION -->
 				
 			
