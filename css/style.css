@@ -120,10 +120,12 @@ a:focus {
 }
 
 h1,
-h2,
+h2 {
+	color: #fff;
+}
 h3,
 h4,
-h5,
+h5
 h6 {
   margin: 0;
   color: #020352;
@@ -369,7 +371,7 @@ section {
   height: 24px;
   background-repeat: no-repeat;
   background-position-x: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='189' height='26' viewBox='0 0 189 26'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23020352' stroke-width='1.5px' d='M86.19%2C2.362L96.98%2C13%2C86.19%2C23.634%2C75.4%2C13Z'/%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23020352' stroke-width='1.5px' d='M94.985%2C2.362L105.775%2C13%2C94.985%2C23.634%2C84.2%2C13Z'/%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23020352' stroke-width='1.5px' d='M103.78%2C2.362L114.57%2C13%2C103.78%2C23.634%2C92.991%2C13Z'/%3E%3Cpath fill-rule='evenodd' fill='%23020352' d='M120%2C14V13H523v1H120Z'/%3E%3Cpath fill-rule='evenodd' fill='%23020352' d='M-331%2C14V13H69v1H-331Z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='189' height='26' viewBox='0 0 189 26'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23fff' stroke-width='1.5px' d='M86.19%2C2.362L96.98%2C13%2C86.19%2C23.634%2C75.4%2C13Z'/%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23fff' stroke-width='1.5px' d='M94.985%2C2.362L105.775%2C13%2C94.985%2C23.634%2C84.2%2C13Z'/%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23fff' stroke-width='1.5px' d='M103.78%2C2.362L114.57%2C13%2C103.78%2C23.634%2C92.991%2C13Z'/%3E%3Cpath fill-rule='evenodd' fill='%23fff' d='M120%2C14V13H523v1H120Z'/%3E%3Cpath fill-rule='evenodd' fill='%23fff' d='M-331%2C14V13H69v1H-331Z'/%3E%3C/svg%3E");
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -430,8 +432,7 @@ section {
 }
 
 .bg-color {
-  background-color: #fff5e6;
-  color: #fff;
+  background-image: url(../images/section-bg.png)
 }
 .bg-color a:not(.btn) {
   color: #fff;
@@ -599,7 +600,7 @@ p.center {
 }
 
 .btn-primary {
-  color: #020352;
+  color: #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: rgba(142, 174, 186, 0.05);
@@ -3559,7 +3560,7 @@ p.center {
   background-size: contain;
   -khtml-opacity: 1;
   -moz-opacity: 1;
-  opacity: 1;
+  opacity: 0.2;
 }
 .side-flowers::before {
   left: -354px;
@@ -5103,17 +5104,17 @@ section.side-flowers {
   margin-top: -1px;
 }
 #rsvp-2.section-bg-color {
-  background: linear-gradient(#fff5e6  50%, #fff 50%) no-repeat;
+  background-image: url(../images/section-bg.jpg)
 }
 #rsvp-2.section-bg-color::before {
-  border-color: #fff5e6  transparent transparent transparent;
+  border-color: transparent transparent transparent;
 }
 
 .form-wrapper {
   position: relative;
   padding: 40px 60px;
   margin-bottom: 40px;
-  background: #fff;
+  background: #000367;
   -webkit-box-shadow: 0px 0px 25px 10px rgba(100, 100, 100, 0.14);
   -moz-box-shadow: 0px 0px 25px 10px rgba(100, 100, 100, 0.14);
   box-shadow: 0px 0px 25px 10px rgba(100, 100, 100, 0.14);
@@ -5161,19 +5162,19 @@ section.side-flowers {
 .form-wrapper.neela-style {
   --offset: 11px;
   --border-size: 1px;
-  border: 42px solid #fff;
+  border: 42px solid #000367;
 }
 .form-wrapper.neela-style > .h-lines {
-  border-top-color: #020352;
-  border-bottom-color: #020352;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
   -khtml-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
   z-index: 0;
 }
 .form-wrapper.neela-style > .v-lines {
-  border-left-color: #020352;
-  border-right-color: #020352;
+  border-left-color: #fff;
+  border-right-color: #fff;
   -khtml-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
@@ -5306,11 +5307,11 @@ textarea.form-control {
 }
 
 .form-check-wrapper {
-  color: #020352;
+  color: #fff;
   margin-bottom: 20px;
 }
 .form-check-wrapper > label {
-  color: #000000;
+  color: #fff;
   margin-bottom: 5px;
   display: block;
 }
